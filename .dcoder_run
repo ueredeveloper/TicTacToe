@@ -1,0 +1,35 @@
+# write commands to install modules/lib and run your project, one in each line.
+# java, javac and gradle commands are available along with other basic linux commands.
+# command to compile the project
+#javac -Xlint -encoding UTF-8 -cp .:./lib/* Main.java
+
+# command to run, change your Main class name here
+#java -Xmx256m -Dfile.encoding=UTF-8 -cp .:./lib/* Main
+
+#how config github in dcoder
+#delete in git config all [remote "xxx"]... 
+#then run:
+#git remote add origin https://[username] :[password]@github.com/[username]/[project_name].git
+
+#git config --global user.email "email"
+#git config --global user.name "username" 
+
+#create readme.md and .gitignore
+#git add . 
+#git commit -m 'xxxxxxx'  
+#git push -u origin master
+
+
+
+#see git config
+
+#[branch "master"]
+#  remote = origin
+#  merge = refs/heads/master
+#[remote "origin"]
+#  url = https://ueredeveloper:***@github.com/ueredeveloper/HowToProgramDeitel11Java.git
+#  fetch = +refs/heads/*:refs/remotes/origin/*
+
+
+git add . 
+

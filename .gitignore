@@ -1,0 +1,4 @@
+#dcoder  
+gen/
+obj/
+libs/*/*.so
